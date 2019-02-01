@@ -2,7 +2,7 @@
 calculatepi.py
 Author: James Eiler
 Credit: Mr Dennison's Tutorials
-Assignment:
+Assignment: Calculate Pi
 
 Write and submit a Python program that computes an approximate value of π by calculating the following sum:
 
@@ -26,4 +26,4 @@ n = int(input("I will estimate pi. How many terms should I use? "))
 decimals = int(input("How many decimal places should I use in the result? "))
 pi = 4*sum([((-1.0)**k)/(2*k+1) for k in range(0,n)])
 print("The approximate value of pi is {0}".format(round(pi, decimals)))
-print("(The true value of pi is {0})".format(round(math.pi, decimals)))
+#print("(The true value of pi is {0})".format(round(math.pi, decimals)))
